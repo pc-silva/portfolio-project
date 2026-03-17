@@ -7,3 +7,24 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+.nav{
+    background-color: #181818;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    margin-right: 28px;
+}
+.nav-list a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: #DDD;
+}
+.nav-list a:hover{
+    color: #ffffff;
+}
