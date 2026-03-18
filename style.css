@@ -80,6 +80,10 @@ body{
     max-width: 50%;
     padding-right: 40px;
 }
+.about h2{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
 .about img{
     max-width: 450px;
     border-radius: 4px;
