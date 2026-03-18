@@ -4,6 +4,9 @@
     outline: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -128,4 +131,62 @@ body{
     border-radius: 4px;
     font-weight: bold;
     margin-top: 48px;
+    border: none;
+}
+
+footer{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer p{
+    color: #ffffff;
+    margin-left: 12px;
+}
+
+@media (max-width: 1068px) {
+    .main{
+        background-size: cover;
+    }
+    .about{
+        flex-direction: column;
+        padding: 80px 0 0 0;
+    }
+    .about div{
+        width: 80%;
+        padding-right: 0;
+        text-align: center;
+    }
+    .about p{
+        font-size: 22px;
+    }
+    .about img{
+        margin-top: 32px;
+        max-width: 50%;
+    }
+
+    .projects img{
+        width: 27%;
+    }
+}
+@media (max-width: 686px){
+    .nav{
+        justify-content: center;
+    }
+    .nav-list a{
+        font-size: 22px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 8px;
+    }
+    footer p{
+        margin: 0;
+    }
 }
