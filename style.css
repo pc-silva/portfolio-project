@@ -21,9 +21,9 @@ body{
 .nav-list{
     display: flex;
     margin-right: 28px;
+    list-style: none;
 }
 .nav-list a{
-    list-style: none;
     text-decoration: none;
     padding: 10px;
     margin: 10px;
@@ -120,4 +120,12 @@ body{
 }
 .project-list img:hover{
     opacity: 1;
+}
+.action{
+    background-color: #181818;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 48px;
 }
