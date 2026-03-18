@@ -28,3 +28,37 @@ body{
 .nav-list a:hover{
     color: #ffffff;
 }
+
+.main{
+    background-color: #000000;
+    background-image: url("images/programador.png");
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.main h1{
+    color: #ffffff;
+    font-size: 54px;
+}
+.main p{
+    color: #1e96fc;
+    font-size: 24px;
+    font-style: italic;
+    margin-block: 10px 35px;
+}
+.call-to-action{
+    background-color: #ffffff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    color: #181818;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #181818;
+    transition: 0.9s;
+}
+.call-to-action:hover{
+    transform: scale(1.1);
+}
